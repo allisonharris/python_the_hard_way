@@ -6,7 +6,7 @@ weight_pounds = 180 # lbs
 weight_kilograms = weight_pounds * 0.453592
 eyes = 'blue'
 teeth = 'white'
-hair = 'brown'
+hair = 'black'
 
 print "Let's talk about %s." % name
 print "He's %d inches tall and %d centimeters tall." % (height_inches, height_centimeters)
