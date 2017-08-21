@@ -1,17 +1,19 @@
 i = 0
-x = 6
 numbers = []
 
-while i < x:
-	print "At the top i is %d" % i
-	numbers.append(i)
+def num_function(num):
+	global i
+	while i < num:
+		print "At the top i is %d" % i
+		numbers.append(i)
 
-	i = i + 1
-	print "Numbers now: ", numbers
-	print "At the bottom i is %d" % i
+		i = i + 1
+		print "Numbers now: ", numbers
+		print "At the bottom i is %d" % i
 
+	print "The numbers: "
 
-print "The numbers: "
+	for num in numbers:
+		print num
 
-for num in numbers:
-	print num
+num_function(6)
